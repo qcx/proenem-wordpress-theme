@@ -2,7 +2,7 @@
 # This file is distributed under the Proprietary.
 msgid ""
 msgstr ""
-"Project-Id-Version: Proenem 0.24.3\n"
+"Project-Id-Version: Proenem 0.24.4\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/proenem-wordpress-theme\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Proenem\n"
@@ -2686,8 +2686,7 @@ msgstr ""
 
 #: inc/promoblack.php:348
 #: inc/promoblack.php:373
-#: inc/promoblack.php:465
-msgid "Acesso à plataforma nova"
+msgid "Acesso à plataforma nova a partir de fev/2027"
 msgstr ""
 
 #: inc/promoblack.php:352
@@ -2820,6 +2819,10 @@ msgstr ""
 
 #: inc/promoblack.php:462
 msgid "4 créditos/mês"
+msgstr ""
+
+#: inc/promoblack.php:465
+msgid "Acesso à plataforma nova"
 msgstr ""
 
 #: inc/promoblack.php:472
