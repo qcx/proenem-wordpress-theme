@@ -146,6 +146,22 @@ class PromoblackTest extends WP_UnitTestCase {
 	}
 
 	/**
+	 * Both plan lists say when the new platform opens.
+	 *
+	 * @return void
+	 */
+	public function test_plans_date_the_new_platform_access() {
+		$plans = proenem_get_promoblack_plans();
+
+		foreach ( array( 'enem-pro', 'med' ) as $plan ) {
+			$this->assertContains( 'Acesso à plataforma nova a partir de fev/2027', $plans[ $plan ]['items'] );
+			$this->assertNotContains( 'Acesso à plataforma nova', $plans[ $plan ]['items'] );
+		}
+
+		$this->assertStringContainsString( 'Acesso à plataforma nova a partir de fev/2027', $this->render_template() );
+	}
+
+	/**
 	 * Every comparison row must fill both plan columns.
 	 *
 	 * @return void

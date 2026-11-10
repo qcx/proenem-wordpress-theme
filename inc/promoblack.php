@@ -345,7 +345,7 @@ function proenem_get_promoblack_plans() {
 				__( 'Mais de 50 mil questões', 'proenem-wordpress-theme' ),
 				__( '10 simulados modelo Enem com correção TRI', 'proenem-wordpress-theme' ),
 				__( 'Redação corrigida por especialistas da banca (2 créditos por mês)', 'proenem-wordpress-theme' ),
-				__( 'Acesso à plataforma nova', 'proenem-wordpress-theme' ),
+				__( 'Acesso à plataforma nova a partir de fev/2027', 'proenem-wordpress-theme' ),
 			),
 		),
 		'med'      => array(
@@ -370,7 +370,7 @@ function proenem_get_promoblack_plans() {
 				__( 'Aula Vip TRI na Prática', 'proenem-wordpress-theme' ),
 				__( 'Check-ups semanais com boletim de desempenho', 'proenem-wordpress-theme' ),
 				__( 'Redação corrigida por especialistas da banca (4 créditos por mês)', 'proenem-wordpress-theme' ),
-				__( 'Acesso à plataforma nova', 'proenem-wordpress-theme' ),
+				__( 'Acesso à plataforma nova a partir de fev/2027', 'proenem-wordpress-theme' ),
 			),
 		),
 	);

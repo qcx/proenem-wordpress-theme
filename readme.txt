@@ -4,7 +4,7 @@ Tags: blog, education, editor-style, custom-logo, custom-menu, featured-images
 Requires at least: 6.5
 Tested up to: 6.6
 Requires PHP: 8.2
-Stable tag: 0.24.3
+Stable tag: 0.24.4
 License: Proprietary
 License URI: LICENSE.md
 
@@ -15,6 +15,9 @@ Tema WordPress do Proenem.
 Tema WordPress do Proenem, estruturado como camada de apresentacao e adaptacao WordPress.
 
 == Changelog ==
+
+= 0.24.4 =
+* Os dois planos da home PROMOBLACK passam a dizer "Acesso a plataforma nova a partir de fev/2027" na lista do que esta incluso.
 
 = 0.24.3 =
 * Muda a ordem dos precos nos planos da home PROMOBLACK: a parcela vira o destaque e o preco a vista passa para a linha de baixo. Sem preco original preenchido, a linha a vista sai sem "Por", como no Med Performance, que fica sem desconto nem cupom.
